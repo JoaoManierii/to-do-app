@@ -12,6 +12,7 @@ builder.Services.AddCors(options =>
     });
 });
 
+// VARIABLE
 var app = builder.Build();
 
 app.UseRouting();
